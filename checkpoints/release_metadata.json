@@ -1,0 +1,20 @@
+{
+  "architecture": "Geometric Transformer (Qin-style geometric attention)",
+  "epoch": 32,
+  "source_checkpoint_sha256": "90ca7877fc1299839a11b04ff5f1a6169822165d8322591b106716facf9d4fce",
+  "released_checkpoint_sha256": "1d9a1103b011c27c7445cc75200fb4ac4eefae21c899dcd4b738ed2ca5a0ec0e",
+  "released_bytes": 5645261,
+  "model_parameters": 1397500,
+  "export_format": "model_state_dict + whitelisted configuration + epoch",
+  "omitted": [
+    "optimizer",
+    "scheduler",
+    "gradient_scaler",
+    "RNG",
+    "metrics",
+    "paths",
+    "dataset records",
+    "unrecognized metadata"
+  ],
+  "warning": "Architecture compatibility is verified; manuscript provenance and redistribution authorization require author review."
+}

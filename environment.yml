@@ -1,0 +1,7 @@
+name: mutastruct
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+# Install a compatible PyTorch build, then: pip install -r requirements.txt

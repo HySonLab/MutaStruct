@@ -1,0 +1,46 @@
+{
+  "status": "Example defaults from supplied architecture; not a recovered trained run.",
+  "model_name": "geometric_transformer",
+  "model": {
+    "hidden_dim": 128,
+    "num_heads": 8,
+    "transformer_layers": 4,
+    "refinement_layers": 3,
+    "dropout": 0.1,
+    "ffn_multiplier": 4,
+    "sigma_distance": 0.5,
+    "sigma_angle_degrees": 15.0,
+    "angle_k": 4,
+    "angle_reduction": "max",
+    "distance_cutoff": 8.0,
+    "distance_rbf": 24,
+    "coordinate_scale": 0.1,
+    "movement_gate_bias": -2.0,
+    "crop_radius": 12.0
+  },
+  "graph": {
+    "radius": 6.0,
+    "max_neighbors": 32,
+    "cache_schema_version": 1
+  },
+  "loss": {
+    "coordinate": 1.0,
+    "edge_distance": 0.2,
+    "clash": 0.02,
+    "local_boost": 3.0,
+    "local_scale": 6.0,
+    "new_atom_boost": 1.0
+  },
+  "training": {
+    "epochs": 100,
+    "batch_size": 2,
+    "gradient_accumulation": 4,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "patience": 15,
+    "num_workers": 8,
+    "seed": 42,
+    "amp": true,
+    "monitor": "loss_total"
+  }
+}
