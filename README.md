@@ -19,10 +19,7 @@ This repository contains:
 - Dataset-schema documentation, metric definitions, and synthetic tests.
 - An optional PreMut inference adapter; the upstream implementation is separate.
 
-**The curated dataset and dataset-construction pipeline are not currently
-included.** Full numerical reproduction requires the locked manifest, matching
-experimental coordinates, and the checkpoints or predictions used for evaluation.
-Synthetic tests do not reproduce the manuscript's numerical results.
+**The curated dataset and dataset-construction pipeline will be released in the future.**
 
 The only GT architecture in this repository is the **Geometric Transformer**
 described in [the architecture documentation](docs/geometric_transformer.md).
