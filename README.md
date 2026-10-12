@@ -19,10 +19,14 @@ This repository contains:
 - Dataset-schema documentation, metric definitions, and synthetic tests.
 - An optional PreMut inference adapter; the upstream implementation is separate.
 
-**The curated dataset and dataset-construction pipeline will be released in the future.**
+The codebase, trained models, evaluation pipeline, and dataset specifications are
+publicly available. The curated benchmark dataset and dataset-construction
+pipeline are not included in the current release because they are undergoing
+additional quality control, validation, and expansion for the journal version of
+the benchmark. These resources will be released in a future update.
 
 The only GT architecture in this repository is the **Geometric Transformer**
-described in [the architecture documentation](docs/geometric_transformer.md).
+described in docs/geometric_transformer.md.
 Third-party model distributions, weights, and databases are not bundled.
 
 ## Installation and tests
