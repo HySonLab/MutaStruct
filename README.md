@@ -102,3 +102,20 @@ original point-cloud registration model.
 
 See [NOTICE.md](NOTICE.md) for method attribution and
 [LICENSING.md](LICENSING.md) for the current licensing status.
+
+## Citation
+
+```bibtex
+@article {Huynh2026.10.21.760837,
+	author = {Huynh, Tan-Phat and Ho, Dang-Manh and Nguyen, Viet Thanh Duy and Kha, Quang-Hien and Pham, Ngoc-Thac and Lai, Kuei-Hung and Hy, Truong-Son},
+	title = {MutaStruct: Revisiting Benchmarks for Single-Site Mutation-Induced Structural Change Prediction},
+	elocation-id = {2026.10.21.760837},
+	year = {2026},
+	doi = {10.64898/2026.10.21.760837},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Predicting the structural consequences of single-site mutations is fundamental to understanding protein function, disease mechanisms, and protein engineering. However, existing benchmarks for mutation-induced structural change prediction are often affected by duplicate mutation events, highly similar structural pairs, and experimental-state confounders, which can inflate reported performance. We introduce MutaStruct, a curated benchmark of experimentally observed single-mutation protein structure pairs designed for rigorous evaluation of mutation-induced structural changes. MutaStruct combines residue-level sequence validation, coordinate-level quality control, context-aware filtering, event-level deduplication, and leakage-aware data splitting to improve dataset reliability and evaluation rigor. We benchmark sequence-only structure prediction, physics-based refinement, and learning-based refinement methods together with a Copy-WT diagnostic control. Copy-WT remains highly competitive on backbone-based metrics, while method rankings change substantially across local and mutation-site measures. These results show that overall structural fidelity does not necessarily imply accurate modeling of mutation-associated structural change, underscoring the need for further methodological development beyond current paradigms. The benchmark dataset is currently undergoing further curation and expansion and will be released in a future journal-version update. The codebase, trained models, and evaluation pipeline are publicly available at https://github.com/HySonLab/MutaStructCompeting Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2026/10/22/2026.10.21.760837},
+	eprint = {https://www.biorxiv.org/content/early/2026/10/22/2026.10.21.760837.full.pdf},
+	journal = {bioRxiv}
+}
+```
